@@ -6,8 +6,6 @@ stages:
       shellScript: sleep 60
   - runScriptConfig:
       image: centos:latest
-      shellScript: sleep 100
+      shellScript: sleep 50
 timeout: 60
-branch:
-  include:
-  - master
+branch: {}
