@@ -4,4 +4,7 @@ stages:
   - runScriptConfig:
       image: centos:latest
       shellScript: sleep 60
+  - runScriptConfig:
+      image: CentOS:Latest
+      shellScript: sleep 100
 timeout: 60
